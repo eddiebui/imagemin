@@ -1,0 +1,27 @@
+{
+  "name": "image-optimizer",
+  "version": "1.0.0",
+  "description": "## Usage",
+  "main": "optimize-images.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czerasz/docker-imagemin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czerasz/docker-imagemin/issues"
+  },
+  "homepage": "https://github.com/czerasz/docker-imagemin#readme",
+  "dependencies": {
+    "glob": "^7.1.1",
+    "imagemin": "^5.2.2",
+    "imagemin-gifsicle": "^5.1.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^5.1.0",
+    "imagemin-svgo": "^5.2.1"
+  }
+}
